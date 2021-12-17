@@ -21,7 +21,7 @@ export function update()
         {
             if(bulletbody[i].x == enemybody[b].x && bulletbody[i].y == enemybody[b].y)
             {
-                bulletbody.splice(i,1n);
+                bulletbody.splice(i,1);
                 enemybody.splice(b,1);
                 break;
             }
